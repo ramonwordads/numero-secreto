@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #222831;
+    --primary-color: #EEEEEE;
+    
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 3.95rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+h3{
+    font-size: 1.75rem;
+    margin-top: 25px;
+}
+
+.mensagem{
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+.box{
+    
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 10px;
+    margin: 25px 0;
+}
+
+.mensagem-user{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.valor-invalido{
+    color: red;
+}
+
+.valor-certo{
+    color: rgb(8, 204, 8);
+}
+
+input{
+    padding: 0.89rem 1.7654rem;
+    cursor: pointer;
+    border-style: none;
+    color: #ffffffc2;
+    background-color: rgba(0, 0, 0, 0.411);
+    text-transform: uppercase;
+    
+}
+
+
+input:hover{
+    background-color:  #ffffffc2;
+    color:  rgba(0, 0, 0, 0.836);
+    
+}
